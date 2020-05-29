@@ -53,6 +53,7 @@ while playerCount!=1:
      listOfCards= random.shuffle(drawnCards)
      drawnCards=[]
      drawnCards.append(listOfCards[-1])
+     
    if drawnCards[-1][1]=="2":
      turn= input(str(players)+ " do you have a draw 2 card?: \n")
      if turn.lower()=="no":
